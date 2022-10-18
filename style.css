@@ -3,7 +3,6 @@
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
 }
-<<<<<<< HEAD
 html{
 	scroll-behavior: smooth;
 }
@@ -30,8 +29,6 @@ html{
   font-size: 35px;
   color: #001a2e;
 }
-=======
->>>>>>> 8007ff9cbb3d0ca7169a8965de1e72a62c5f290a
 .header{
 	min-height: 100vh;
 	width: 100%;
@@ -40,7 +37,6 @@ html{
 	background-size: cover;
 	position: relative;
 }
-<<<<<<< HEAD
 .loader{
 	position: absolute;
 	top: 50%;
@@ -68,8 +64,6 @@ html{
 	animation-delay: 0.5s;
 }
 
-=======
->>>>>>> 8007ff9cbb3d0ca7169a8965de1e72a62c5f290a
 nav{
 	display: flex;
 	padding: 2% 6%;
@@ -175,7 +169,6 @@ nav .fa{
 	}
 }
 
-<<<<<<< HEAD
 .scroll{
 	height: 50px;
 	width: 30px;
@@ -221,8 +214,6 @@ nav .fa{
 	}
 }
 
-=======
->>>>>>> 8007ff9cbb3d0ca7169a8965de1e72a62c5f290a
 /*--- Course ---*/
 
 .course{
@@ -250,19 +241,12 @@ p{
 }
 .course-col{
 	flex-basis: 31%;
-<<<<<<< HEAD
 	background: #caf0f8;
-=======
-	background: #fff3f3;
->>>>>>> 8007ff9cbb3d0ca7169a8965de1e72a62c5f290a
 	border-radius: 10px;
 	margin-bottom: 5%;
 	padding: 20px 12px;
 	box-sizing: border-box;
-<<<<<<< HEAD
 	transition: 0.4s;
-=======
->>>>>>> 8007ff9cbb3d0ca7169a8965de1e72a62c5f290a
 }
 h3{
 	text-align: center;
@@ -317,15 +301,12 @@ h3{
 	left: 50%;
 	transform: translateX(-50%);
 	position: absolute;
-<<<<<<< HEAD
 	opacity: 0;
 	transition: 1s;
 }
 .layer:hover h3{
 	bottom: 49%;
 	opacity: 1;
-=======
->>>>>>> 8007ff9cbb3d0ca7169a8965de1e72a62c5f290a
 }
 .mdown{
 	width: 50;
@@ -335,7 +316,6 @@ h3{
 	margin-bottom: 5px;
 	padding: 10px;
 	position: absolute;
-<<<<<<< HEAD
 }
 
 /*--- facilities ---*/
@@ -565,8 +545,3 @@ hr{
 	flex-basis: 100%
 }
 }
-=======
-	
-}
-
->>>>>>> 8007ff9cbb3d0ca7169a8965de1e72a62c5f290a
