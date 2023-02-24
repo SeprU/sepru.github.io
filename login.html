@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Page Title</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+	
+<script src="https://kit.fontawesome.com/a93cf9041f.js" crossorigin="anonymous"></script>
+</head>
+	<div class="loader"></div>
+	<span></span>
+	<span></span>
+	<span></span>
+
+	
+<body>
+	<div id="progress">
+      <span id="progress-value">&#x1F815;</span>
+    </div>
+	
+	
+	<section class="header" id="sec1">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">COURSE</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="">CONTACT</a></li>
+					<li><a href=""><i class="fa-regular fa-user"></i></a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		
+ <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+		
+		
+    <form class="login">
+        <h3>Welcome Back!
+            <span>Login to your account.</span>
+        </h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="For ex. CodingArtist" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Minimum 6 characters" id="password">
+
+        <button class="login-but">Sign In</button>
+    </form>
+		
+		
+		
+
+		<a href="#footer">
+		<div class="scroll">
+		</div></a>
+	</section>
+
+<!--- Course --->
+
+	
+	<!--- campus --->
+
+	<!--- Facilities --->
+	
+
+	
+<!--- testimonials --->
+
+	
+ <!-- footer --->
+	
+<section class="footer" id="footer">
+	<div class="footer-row">
+		<div class="footer-col">
+			<img src="images/logo.png" class="logo">
+			<p>asdiuhg asp;asudaisuhd aiusdiuaw baisu dbasuidwiub laisd auwi lalisudbaliuwb ls laskbduiwb ajk bauiw b s jkwu b</p>
+			</div>
+		
+		<div class="footer-col">
+		<h3>Office <div class="underline"><span></span></div></h3>
+		<p>ITPL ROAD <br>Whiterfield, Bangalore <br>Karnataka, PIN 560055, India <br></p>
+		<p class="email">avimedia@emasdas.com</p>
+		<h4>+48 123 432 512</h4>
+		</div>
+		
+		<div class="footer-col">
+		<h3>Links <div class="underline"><span></span></div></h3>
+		<ul>
+			<li> <a href="">Home</a></li>	
+			<li> <a href="">Services</a></li>	
+			<li> <a href="">about</a></li>	
+			<li> <a href="">features</a></li>	
+			<li> <a href="">contact</a></li>	
+		</ul>
+		</div>
+		
+		<div class="footer-col">
+		<h3>Newsletter <div class="underline"><span></span></div></h3>
+		<form class="newsletter-email">
+			<i class="fa-regular fa-envelope"></i>
+			<input type="email" placeholder="Enter email" required>
+			<button  class="newsletter-email" type="submit"> <i class="fa-solid fa-arrow-right"></i>   </button>
+			</form>
+			
+			<div class="social-icons">
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-facebook-messenger"></i>
+			<i class="fa-brands fa-instagram"></i>
+			<i class="fa-brands fa-twitter"></i>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<p class="copyright">Auto-Hol GREGOR @2022 - All Rights Reserved</p>
+</section>
+
+	
+	
+	
+   <!-- Script -->
+    <script src="script.js"></script>
+	
+	
+	
+	
+<!---JavaScript for Toggle Menu--->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+	
+</body>	
+</html>
