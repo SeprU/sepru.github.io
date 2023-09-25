@@ -726,4 +726,89 @@ input{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Zaokrąglenie rogów filmików */
+.video-section iframe {
+  border-radius: 10px;
+}
+
+/* Zmniejszenie rozmiaru filmików */
+.video-section iframe {
+  width: 300px; /* Możesz dostosować szerokość według potrzeb */
+  height: 200px; /* Możesz dostosować wysokość według potrzeb */
+}
+
+/* Dodanie większego odstępu między filmikami */
+.video-section {
+  margin-bottom: 55px; /* Możesz dostosować odstęp między sekcjami filmików według potrzeb */
+  text-align: center; /* Wyśrodkowanie filmików i tytułów */
+}
+
+/* Odstęp na wysokość między tytułem a filmikami */
+.video-section h2 {
+  margin-bottom: 300px; /* Możesz dostosować odstęp na wysokość między tytułem a filmikami według potrzeb */
+}
+
+/* Odstęp na szerokość między filmikami */
+.video-section iframe:not(:last-child) {
+  margin-right: 10px; /* Możesz dostosować odstęp na szerokość między filmikami według potrzeb */
+  margin-left: 10px; /* Możesz dostosować odstęp na szerokość między filmikami według potrzeb */
+}
+
+
+
+
+
+/* Prostokąt w tle */
+.video-section {
+  background-color: #f0f0f0; /* Kolor tła (możesz dostosować według potrzeb) */
+  border-radius: 15px; /* Zaokrąglenie rogów */
+  padding: 20px; /* Wewnętrzny odstęp od treści */
+  position: relative;
+  overflow: hidden;
+  width: 80%; /* Ustaw szerokość na 80% szerokości monitora */
+  margin: 0 auto; /* Wyśrodkuj na ekranie */
+  margin-bottom: 20px; /* Odstęp na wysokości pomiędzy sekcjami */
+}
+
+/* Aby ukryć tło w filmikach i tytule */
+.video-section iframe,
+.video-section h2 {
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-btn2{
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	border: 1px solid #000000;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn2:hover{
+	border: 1px solid #00c6ff;
+	background: #00c6ff;
+	transition: 1s;
+}
+
+
+
