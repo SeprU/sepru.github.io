@@ -793,7 +793,7 @@ input{
   z-index: 1;
 }
 
-.hero-btn2{
+.cfg{
 	display: inline-block;
 	text-decoration: none;
 	color: #000000;
@@ -804,10 +804,10 @@ input{
 	position: relative;
 	cursor: pointer;
 }
-.hero-btn2:hover{
+.cfg:hover{
 	border: 1px solid #00c6ff;
 	background: #00c6ff;
-	transition: 1s;
+	transition: 0.4s;
 }
 
 
